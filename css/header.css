@@ -1,0 +1,68 @@
+#header {
+    background-image: url("../assets/img/Background_Intro.png");
+    background-size: cover;
+    background-position: center;
+
+    margin-bottom: 57px;
+}
+
+.profile {
+    margin-block: 120px 80px;
+    padding: 0 180px 80px 180px;
+
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.profile-info {
+    margin-top: 56px;
+
+    h3 {
+        font: var(--subtitle);
+
+        span {
+            color: var(--red);
+        }
+    }
+
+    h1 {
+        margin-top: 8px;
+    
+        font: var(--title-lg);
+    }
+
+    p {
+        margin-top: 20px;
+        color: var(--gray-400);
+        text-align: justify;
+    }
+}
+
+.skills{
+    justify-content: center;
+    gap: 16px;
+
+    .skill-item {
+        font: var(--text-md);
+        color: var(--gray-500);
+
+        background-color: var(--gray-300);
+        border-radius: 999px;
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+    }
+}
+
+.arrowDown {
+    justify-content: center;
+    margin-top: 94px;
+}
+
+
+
+

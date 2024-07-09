@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --font-family-asap: "Asap", sans-serif;
+    --title-lg: 700 56px/120% var(--font-family-asap);
+    --title-md: 700 24px/120% var(--font-family-asap);
+    --title-sm: 700 16px/120% var(--font-family-asap);
+
+    --font-family-inconsolata: "Inconsolata", sans-serif;
+    --subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+    --font-family-maven-pro: "Maven Pro", sans-serif;
+    --text-md: 400 16px/140% var(--font-family-maven-pro);
+    --text-sm: 400 14px/140% var(--font-family-maven-pro);     
+}
+
+body {
+    background-color: var(--gray-200);
+    color: var(--gray-500);
+}
+
+h3 {
+    font: var(--subtitle);
+}
+
+a {
+   text-decoration: none;
+   color: var(--gray-500);
+   font: var(--text-md);
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.profile {
+    img {
+        height: 112px;
+        width: 112px;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.subtitle {
+    color: var(--red);
+    font: var(--subtitle);
+}
+
+p {
+    font: var(--text-sm);
+}
